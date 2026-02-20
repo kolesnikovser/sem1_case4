@@ -1,41 +1,20 @@
-# Prerequisites
-*.d
+# Директории сборки
+build/
+cmake-build-*/
+out/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Файлы VS Code
+.vscode/
+*.user
+*.workspace
 
-# Precompiled Headers
-*.gch
-*.pch
+# Файлы системы
+.DS_Store
+Thumbs.db
 
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# Временные файлы
+*.log
+*.tmp
+*.swp
+*.swo
+*~
